@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import Login from './components/Login';
+import Feed from './components/Feed';
 
 function App() {
   const [user, setUser] = useState(null);
@@ -17,10 +18,7 @@ function App() {
       {!user ? (
         <Login onLogin={handleLogin} />
       ) : (
-        <div>
-          <h2>Welcome, {user.name}</h2>
-          <p>Access Token: {token}</p>
-        </div>
+        <Feed user={user} />
       )}
     </div>
   );
