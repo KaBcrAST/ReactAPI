@@ -1,0 +1,87 @@
+.feed-container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #f3f2ef;
+}
+
+.feed-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.feed-header h1 {
+  font-size: 24px;
+  margin: 0;
+}
+
+.feed-header button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  background-color: #0073b1;
+  color: #fff;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.feed-header button:hover {
+  background-color: #005582;
+}
+
+.feed-post-form {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+}
+
+.feed-post-form input,
+.feed-post-form textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.feed-post-form button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  background-color: #0073b1;
+  color: #fff;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.feed-post-form button:hover {
+  background-color: #005582;
+}
+
+.feed-post {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+}
+
+.feed-post h2 {
+  font-size: 20px;
+  margin: 0 0 10px;
+}
+
+.feed-post p {
+  margin: 5px 0;
+}
+
+.feed-post img,
+.feed-post video {
+  max-width: 100%;
+  border-radius: 8px;
+  margin-top: 10px;
+}
