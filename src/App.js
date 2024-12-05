@@ -23,6 +23,8 @@ function App() {
           <Login onLogin={handleLogin} />
         ) : (
           <Routes>
+            <Route path="/profile/:userId" element={<Profile />} />
+            <Route path="/login" element={<Login />} />
             <Route path="/profile" element={<Profile user={user} />} />
             <Route path="/author/:authorId" element={<AuthorProfile />} />
             <Route path="/" element={<Feed user={user} />} />
